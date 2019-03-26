@@ -1,3 +1,4 @@
+body {width: 100%;}
 /* div principal*/
 #menu-inicio{
     width: 100%;
@@ -264,11 +265,26 @@
     height: 60px;
     margin-left: 20%;
 }
+#sent-notificacion{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 18%;
+    margin-top: -0.5%;
+}
 #sent-rectangulo-gris{
     position: absolute;
     font-family: Arial;
     font-size: 15pt;
     margin-left: 21%
+}
+#sent-num-notificacion{
+    position:  absolute;
+    font-family: arial;
+    margin-left: 18.5%;
+    margin-top: -0.3%;
+    color:white;
+    font-weight: bold;
 }
 #barraBusqueda{
     position:  absolute;
@@ -303,7 +319,7 @@
     background: #c9ccd1;
     border: 0px;
 }
-#nombre{
+#nombre-email{
     font-size: 21px;
     font-family:  Arial;
     margin-left: 110px;
@@ -408,7 +424,7 @@
     margin-left: 10%;
     margin-top: 3%;
     width:939px;
-    height:263px;
+    height:463px;
     border: solid 1px #cccfd6;
    background: #fcfcfe;
 }
@@ -416,5 +432,436 @@
     font-family: arial;
     font-size: 21pt;
     font-weight: bold;
+    color:#939798;
+    margin-left: 15%;
+}
+#fecha1{
+    font-family: arial;
+    font-size: 18pt;
+    color:#939798;
+    margin-left: 10%;
+    margin-top: -2%;
+}
+#rectangulo-calendario{
+    width: 250px;
+    height: 60px;
+    margin-left: 4%;
+    position: absolute;
+}
+#contenido-cal-rojo1{
+    font-family: arial;
+    font-size: 15pt;
+    color: #f6fbf4;
+    margin-left: 7%; 
+    position: absolute;
+}
+#numero-tlf{
+    font-family: arial;
+    font-size: 10pt;
+    color:#fef5f0;
+    position: absolute;
+    margin-left: 7%; 
+    margin-top: 2.3%;
+}
+#rectangulo-test{
+    width: 250px;
+    height: 60px;
+    margin-left: 4%;
+    margin-top: 4%;
+    position: absolute;
+}
+#contenido-test1{
+    margin-left: 7%;
+    position: absolute;
+    color: #f6fbf4;
+    font-size: 15pt;
+    font-family: arial;
+    margin-top: 4.5%;
+}
+#contenido-test2{
+    margin-left: 7%;
+    position: absolute;
+    color:#fef5f0;
+    font-size: 10pt;
+    font-family: arial;
+    margin-top: 5.7%;
+}
+#rectangulo-calendario-gris{
+    margin-top: 7%;
+    margin-left: 4%;
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    background: #e4e4e6;
+}
+#titulo-apartado-calendario{
+    position: absolute;
+    font-family: arial;
+    font-size: 10pt;
+    margin-left: 15%;
+    color:#6f6f71;
+}
+#titulo-apartado1-calendario{
+    position: absolute;
+    font-family: arial;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: 4%;
+    color: #616163;
+}
+#contenido-apartado-calendario{
+    margin-top: 15%;
+    font-size: 9pt;
+    margin-left: 15%;
+    color:#58585a;
+}
+#change{
+    color: #048179;
+    border:none;
+    background: #00dabf;
+    width: 80px;
+    height: 30px;
+    margin-top: 12%;
+    margin-left: 19%;
+    font-weight: bold;
+    font-family: arial;
+}
+#done{
+    color: white;
+    border:none;
+    position: absolute;
+    background: red;
+    width: 80px;
+    height: 30px;
+    margin-top: 12%;
+    margin-left: 7%;
+    font-weight: bold;
+    font-family: arial;
+}
+#titulo-calendario{
+    font-family: arial;
+    font-size: 21pt;
+    font-weight: bold;
+    color:#939798;
+    margin-left: 32%;
+    position: absolute;
+    margin-top: -4%;
+}
+#cuadro-calendario-semana{
+    background: #00dabf;
+    width: 370px;
+    height: 40px;
+    margin-left: 26%;
+    position: absolute;
+}
+#dias{
+    font-family: arial;   
+    font-size: 21pt;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+    letter-spacing: 9pt;
+    color:#767475;
+}
+#seleccionMes{
+    position: absolute !important;
+    margin-left: 28.8%;
+    margin-top: 3.7%;
+    width: 40px;
+    height: 40px;
+}
+#seleccionMes1{
+    position: absolute !important;
+    margin-left: 39.8%;
+    margin-top: 3.7%;
+    width: 40px;
+    height: 40px;
+    opacity: 1.0;
+}
+#dia-senialado{
+    position: absolute !important;
+    margin-left: 29.4%;
+    margin-top: 3.8%;
+    color: white;
+    font-size: 30px;
+    
+}
+#dias-mes{
+    font-family: arial;   
+    font-size: 20pt;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 26.6%;
+    word-spacing: 23pt;
+    color:#767475; 
+}
+#dias-mes1{
+    font-family: arial;   
+    font-size: 21pt;
+    position: absolute;
+    margin-top: 6.5%;
+    margin-left: 26.6%;
+    word-spacing: 15pt;
+    color:#767475; 
+}
+#dias-mes2{
+    font-family: arial;   
+    font-size: 21pt;
+    position: absolute;
+    margin-top: 8.5%;
+    margin-left: 26.2%;
+    word-spacing: 12pt;
+    color:#767475; 
+    line-height: 40pt; 
 }
 
+
+/* Comienza Circle*/
+#contenido-circle{
+    margin-left: 10%;
+    margin-top: 3%;
+    width:939px;
+    height:790px;
+    border: solid 1px #cccfd6;
+   background: #f7f6f4;
+}
+
+#menu-cicle1{
+    width: 313px;
+    height: 80px;
+    background: white;
+    border: 1px solid #e2dedb;
+    position: absolute;
+}
+#menu-cicle2{
+    width: 313px;
+    height: 80px;
+    background: white;
+    border: 1px solid #e2dedb;
+    border-bottom: red solid 4px;
+    margin-left: 313px;
+    position: absolute;
+}
+#menu-cicle3{
+    width: 313px;
+    height: 80px;
+    background: white;
+    border: 1px solid #e2dedb;
+    margin-left: 626px;
+    position: absolute;
+}
+#texto-interno{
+    text-align: center;
+    margin-top: 10%;
+    color: #969a99;
+    font-family: arial;   
+    font-size: 15pt;
+}
+#intro-circle{
+    margin-left: 320px;
+    background: #e4e3e1;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    margin-top: 6%;
+}
+#contenido-intro-circle{
+    margin-top: 2.5%;
+    text-align: center;
+    font-family:  arial;
+    font-size: 10pt;
+    color:#8d8c8a;
+}
+/* CUADRICULAS */
+#cuadricula1-circle{
+    width: 290px;
+    height: 160px;
+    color: white;
+    border: solid 1px #e8e6e7;
+    border-left: solid  9px red;
+   margin-top: 19%;
+   margin-left: 14%;
+ 
+}
+#nombre{
+    position:  absolute;
+    font-size: 15pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+#ocupacion{
+    position:  absolute;
+    font-size: 13pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 6%;
+    margin-top: 2.5%;
+}
+#imagen-circle{
+    margin-top: 18%;
+    margin-left: 7%;
+    border: 8px solid #e8e6e7;
+    border-radius: 50px;
+}
+#send-message{
+    background: red;
+    width: 150px;
+    height: 35px;
+    margin-left: 7.4%; 
+    margin-top: -1%;
+    position: absolute;  
+    
+}
+#text-send-message{
+    text-align: center;
+    margin-top:8px;
+    font-family: arial;
+}
+#cuadricula2-circle{
+    width: 290px;
+    height: 160px;
+    color: white;
+    border: solid 1px #e8e6e7;
+    border-left: solid  9px red;
+   margin-top: 3%;
+   margin-left: 14%;
+ 
+}
+#nombre2{
+    position:  absolute;
+    font-size: 15pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 4.5%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+#ocupacion2{
+    position:  absolute;
+    font-size: 13pt;
+    font-family: arial;
+    color:grey;
+   
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+#cuadricula3-circle{
+    width: 290px;
+    height: 160px;
+    color: grey;
+    border: solid 1px #e8e6e7;
+    border-left: solid  9px #00d7c5;
+   margin-top: 3%;
+   margin-left: 14%;
+ 
+}
+#send-message-azul{
+    background: #00d7c5;
+    width: 150px;
+    height: 35px;
+    margin-left: 7.4%; 
+    margin-top: -1%;
+    position: absolute;  
+}
+#cuadricula4-circle{
+    width: 290px;
+    height: 160px;
+    color: grey;
+    border: solid 1px #e8e6e7;
+    border-left: solid  9px #00d7c5;
+   margin-top: -28.3%;
+   margin-left: 27%;
+   position: absolute;
+ 
+}
+#nombre4{
+    position:  absolute;
+    font-size: 15pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 39%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+#ocupacion4{
+    position:  absolute;
+    font-size: 13pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 75%;
+    margin-top: 15%;
+}
+#imagen-circle4{
+    margin-top: 15%;
+    margin-left: 7%;
+    border: 8px solid #e8e6e7;
+    border-radius: 50px;
+}
+#send-message-azul1{
+    background: #00d7c5;
+    width: 150px;
+    height: 35px;
+    margin-left: 48%; 
+    margin-top: -5%;
+    position: absolute;  
+}
+#cuadricula5-circle{
+    width: 290px;
+    height: 160px;
+    color: white;
+    border: solid 1px #e8e6e7;
+    border-left: solid  9px red;
+   margin-top: -18.5%;
+   margin-left: 27%;
+   position: absolute;
+}
+#nombre5{
+    position:  absolute;
+    font-size: 15pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+#ocupacion5{
+    position:  absolute;
+    font-size: 13pt;
+    font-family: arial;
+    color:grey;
+    margin-left: 68%;
+    margin-top: 15%;
+}
+#imagen-circle5{
+    margin-top: 15%;
+    margin-left: 7%;
+    border: 8px solid #e8e6e7;
+    border-radius: 50px;
+}
+#send-message-rojo5{
+    background: red;
+    width: 150px;
+    height: 35px;
+    margin-left: 48%; 
+    margin-top: -5%;
+    position: absolute;  
+}
+/*iconos*/
+#tlf-img{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    margin-left: 4.6%;
+    margin-top: 1.2%;
+}
+#calendar-img{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    margin-left: 4.6%;
+    margin-top: 4.5%;
+}
