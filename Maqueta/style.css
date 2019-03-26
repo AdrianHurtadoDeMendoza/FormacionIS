@@ -1,16 +1,18 @@
-body {width: 100%;}
+body{
+    min-width: 1824px;
+    
+}
 /* div principal*/
 #menu-inicio{
-    width: 100%;
+    width: 1800px;
     height: 93px;
-    /*background-color: green;*/
     border-bottom:solid 1px #dfe0e5;
     
 }
 /* cuadro primero, anciana cordelia*/
 #senior{
-    margin-left: 30%;
-    margin-top: 0.5%;
+    margin-left: 577px;
+    margin-top: 8px;
     position: absolute;
 }
 #Notificacion-Usuario{
@@ -23,7 +25,7 @@ body {width: 100%;}
 }
 #cordelia{
     position: absolute;
-    margin-left: 58%;
+    margin-left: 1100px;
     margin-top: -2%;
     font-family: Arial;
     font-weight: bold;
@@ -34,7 +36,7 @@ body {width: 100%;}
 }
 #setting{
     position: absolute;
-    margin-left: 67.5%;
+    margin-left: 1280px;
     margin-top: -1%;
     font-family: Arial;
     font-weight: bold;
@@ -65,7 +67,7 @@ body {width: 100%;}
 
 /* boton rojo, salir*/
 #logout{
-    margin-left: 55%;
+    margin-left: 1045px;
     margin-top: 1.2%;
     position: absolute;
 }
@@ -83,6 +85,7 @@ body {width: 100%;}
 #cuadricula{
     margin-top: 8px;
     margin-left: 8px; 
+   
 }
 #imagenCuadriculas{
     position: absolute;
@@ -121,6 +124,7 @@ body {width: 100%;}
     font-size: 16.5pt;
     font-weight: bold;
     color: #868686;
+    
 }
 #notificacion-alerts{
     position: absolute;
@@ -470,6 +474,20 @@ body {width: 100%;}
     margin-top: 4%;
     position: absolute;
 }
+#cruceta{
+    margin-left: 305px;
+    width: 20px;
+    height: 25px;
+    background: #d73936;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+#x{
+    font-size: 20pt;
+    margin-top: -3px;
+    font-family: arial;
+}
 #contenido-test1{
     margin-left: 7%;
     position: absolute;
@@ -566,10 +584,12 @@ body {width: 100%;}
 }
 #seleccionMes{
     position: absolute !important;
-    margin-left: 28.8%;
-    margin-top: 3.7%;
+    margin-left: 28.6%;
+    margin-top: 3.5%;
     width: 40px;
     height: 40px;
+    border: solid 3px grey;
+    border-radius: 50px;
 }
 #seleccionMes1{
     position: absolute !important;
@@ -577,16 +597,33 @@ body {width: 100%;}
     margin-top: 3.7%;
     width: 40px;
     height: 40px;
-    opacity: 1.0;
+    opacity:0.7;
+}
+#seleccionMes2{
+    position: absolute !important;
+    margin-left: 29%;
+    margin-top: 8.9%;
+    width: 40px;
+    height: 40px;
+    opacity:0.7;
+}
+#seleccionMes3{
+    position: absolute !important;
+    margin-left: 40.3%;
+    margin-top: 11.5%;
+    width: 42px;
+    height: 42px;
+    opacity:0.7;
 }
 #dia-senialado{
     position: absolute !important;
     margin-left: 29.4%;
-    margin-top: 3.8%;
+    margin-top: 3.7%;
     color: white;
     font-size: 30px;
     
 }
+
 #dias-mes{
     font-family: arial;   
     font-size: 20pt;
@@ -650,6 +687,20 @@ body {width: 100%;}
     border: 1px solid #e2dedb;
     margin-left: 626px;
     position: absolute;
+}
+#notificacion-pending{
+    position: absolute;
+    margin-left: 210px;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+}
+#num-notificacion-pending{
+    position: absolute;
+    margin-left: 217px;
+    margin-top: 32px;
+    color: white;
+    
 }
 #texto-interno{
     text-align: center;
@@ -824,7 +875,7 @@ body {width: 100%;}
     font-size: 15pt;
     font-family: arial;
     color:grey;
-    margin-left: 30%;
+    margin-left: 110px;
     margin-top: 5%;
     font-weight: bold;
 }
@@ -833,8 +884,8 @@ body {width: 100%;}
     font-size: 13pt;
     font-family: arial;
     color:grey;
-    margin-left: 68%;
-    margin-top: 15%;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 #imagen-circle5{
     margin-top: 15%;
