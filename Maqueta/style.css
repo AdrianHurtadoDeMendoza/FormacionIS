@@ -1,0 +1,420 @@
+/* div principal*/
+#menu-inicio{
+    width: 100%;
+    height: 93px;
+    /*background-color: green;*/
+    border-bottom:solid 1px #dfe0e5;
+    
+}
+/* cuadro primero, anciana cordelia*/
+#senior{
+    margin-left: 30%;
+    margin-top: 0.5%;
+    position: absolute;
+}
+#Notificacion-Usuario{
+    margin-left: 57%;
+    margin-top: -4%;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+#cordelia{
+    position: absolute;
+    margin-left: 58%;
+    margin-top: -2%;
+    font-family: Arial;
+    font-weight: bold;
+}
+#notificacion-senior{
+    margin-left: 33%;
+    position: absolute;
+}
+#setting{
+    position: absolute;
+    margin-left: 67.5%;
+    margin-top: -1%;
+    font-family: Arial;
+    font-weight: bold;
+}
+#logout-text{
+    position: absolute;
+    margin-left: 77.5%;
+    margin-top: -1%;
+    font-family: Arial;
+    font-weight: bold;
+    color: red;
+}
+
+/*configuracion*/
+#config{
+    margin-left: 45%;
+    margin-top: 1.2%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+/*separacion */
+#puntos{
+    margin-left: 51%;
+    margin-top: 2.5%;
+    position: absolute;
+}
+
+/* boton rojo, salir*/
+#logout{
+    margin-left: 55%;
+    margin-top: 1.2%;
+    position: absolute;
+}
+#num-notificaciona{
+    margin-left: 34%;
+    position: absolute;
+}
+#numero{
+    position: absolute;
+}
+/*fin menu principal */
+
+/* caja1 - alerts */
+/*genericos*/
+#cuadricula{
+    margin-top: 8px;
+    margin-left: 8px; 
+}
+#imagenCuadriculas{
+    position: absolute;
+    margin-top: 20px;
+}
+
+#notificacionPParte{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+#flechaPParte{
+    position: absolute;
+    margin-top: 128px;
+    margin-left: 260px;
+}
+/*alerts*/
+#alerts{
+    width: 300px;
+    height:150px;
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6
+}
+
+#imagenCuadriculas{
+    position: absolute;
+    margin-top: 20px;
+}
+#textoBloq1{
+    margin-left: 150px;
+    margin-top: 60px;
+    font-family: Arial;
+    font-size: 16.5pt;
+    font-weight: bold;
+    color: #868686;
+}
+#notificacion-alerts{
+    position: absolute;
+    margin-left: 263px;
+    margin-top: -0.4%;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+#notificacion-puntos{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -0.8%;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+/*Caja2 - Remiders*/
+#reminders{
+    width: 300px;
+    height:150px;
+    margin-top: -8.18%;
+    margin-left: 28%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6;
+}
+/*Caja 3 - Circle*/
+#circle{
+    width: 300px;
+    height:150px;
+    margin-top: -8.18%;
+    margin-left: 46%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6;
+}
+/*Caja 4 - daily*/
+#daily{
+    width: 300px;
+    height:150px;
+    margin-top: 1%;
+    margin-left: 10%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6;
+}
+/*Caja 5 - repository*/
+#repository{
+    width: 300px;
+    height:150px;
+    margin-top: -8.18%;
+    margin-left: 28%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6;
+}
+/*Caja 6 - reports*/
+#reports{
+    width: 300px;
+    height:150px;
+    margin-top: -8.18%;
+    margin-left: 46%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6;
+}
+/*Caja 4 - points*/
+#points{
+    width: 300px;
+    height:150px;
+    margin-top: 1%;
+    margin-left: 10%;
+    background-color:#f4f5f7;
+    border:solid 1px #cccfd6;
+}
+#rectangulo{
+    position: absolute;
+    margin-left: 115px;
+}
+#barra-alert{
+    margin-top: 3%;
+    height: 58px;
+    width: 100%;
+    background-color: #dfe0e5;
+}
+/* barra separacion */
+#imagen-Alert-Verde{
+    margin-top: 3.5px;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+    position:  absolute;
+}
+#text-barra{
+    position: absolute;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 21pt;
+    margin-top: 14px;
+    color: #868686;
+}
+/*caja  de contenido alert*/
+#contenido-alerts{
+    width: 940px;
+    height: 620px;
+    border: solid 1px  #cccfd6;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#barra-contenido-alert{
+    width: 940px;
+    height: 60px;
+    border-bottom: solid 1px  #cccfd6;
+}
+#botonRed{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 18px;
+    height: 19px;
+    border-radius: 5px;
+    border:solid 2px red;
+    position: absolute;
+}
+#rectangulo-Alert{
+    width: 170px;
+    height: 60px;
+    margin-left: 4%;
+    position: absolute;
+}
+#texto-rectangulo-Red{
+    position: absolute;
+    margin-left: 5.3%;
+    color:white;
+    font-family: Arial;
+    font-size: 15pt;
+}
+#inbox-rectangulo-Red{
+    position: absolute;
+    font-family: Arial;
+    font-size: 15pt;
+    margin-left: 15%
+}
+#rectangulo-Alert-gris{
+    position: absolute;
+    width: 92px;
+    height: 60px;
+    margin-left: 20%;
+}
+#sent-rectangulo-gris{
+    position: absolute;
+    font-family: Arial;
+    font-size: 15pt;
+    margin-left: 21%
+}
+#barraBusqueda{
+    position:  absolute;
+    margin-left: 40%;
+    margin-top: 0.7%;
+    width: 160px;
+    height: 31px;
+}
+#botonSeleccionado{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 18px;
+    height: 19px;
+    border-radius: 5px;
+    border:solid 2px #cccfd6 ;
+    position: absolute;
+}
+#seleccionadoMensaje{
+    width: 20px;
+    height: 20px;
+    position:  absolute;
+    margin-top: 24px;
+    margin-left: 80px;
+}
+#noSeleccionadoMensaje{
+    width: 15px;
+    height: 15px;
+    position:  absolute;
+    margin-top: 24px;
+    margin-left: 80px;
+    border-radius: 50%;
+    background: #c9ccd1;
+    border: 0px;
+}
+#nombre{
+    font-size: 21px;
+    font-family:  Arial;
+    margin-left: 110px;
+    position: absolute;
+    font-weight: bold;
+}
+
+#asunto{
+    font-size: 21px;
+    font-family:  Arial;
+    margin-left: 330px;
+    position: absolute;
+    color: grey;
+}
+#fecha{
+    font-size: 21px;
+    font-family:  Arial;
+    margin-left: 720px;
+    position: absolute;
+    color: grey;
+}
+#contenidoEmail{
+    margin-top: 6%;
+    width:939px;
+    height:263px;
+    border: solid 1px #cccfd6;
+    /*border-top: solid 1px #cccfd6;*/
+    background: #f7f7f7;
+}
+#asunto-msn{
+    font-size: 21px;
+    font-family:  Arial;
+    margin-left: 64px;
+    position: absolute;
+    color: grey;
+}
+#mensaje{
+    font-size: 17px;
+    font-family:  Arial;
+    margin-left: 64px;
+    margin-top: 50px;
+    position: absolute;
+    color: grey;
+}
+#replay{
+    background-color: #02dcc1;
+    width: 86px;
+    height: 40px;
+    margin-top: 209px;
+    margin-left: 696px;
+    color: #048179;
+    text-align: center;  
+    border: 0px;
+}
+#delete{
+    background-color: red;
+    width: 86px;
+    height: 40px;
+    margin-top: 209px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;  
+    position: absolute;
+    border: 0px;
+}
+#seleccion1{
+    margin-top:5px;
+    
+}
+#seleccion2{
+    margin-top:55px;
+    
+}
+#seleccion3{
+    margin-top:100px;
+    
+}
+#seleccion4{
+    margin-top: 145px;
+}
+#rectangulo-msn-gris{
+    width: 180px;
+    height: 40px;
+    margin-left: 705px;
+    margin-top: 50px;
+}
+#msn{
+    margin-top: -1.5%;
+    margin-left: 720px;
+    position: absolute;
+    font-size: 14px;
+    font-family:  Arial;
+    color: grey;
+    font-weight: bold;
+}
+#menu-mes{
+    margin-left: 70%;
+    margin-top: 1%;
+    position: absolute;
+}
+#contenido-calendario{
+    margin-left: 10%;
+    margin-top: 3%;
+    width:939px;
+    height:263px;
+    border: solid 1px #cccfd6;
+   background: #fcfcfe;
+}
+#today{
+    font-family: arial;
+    font-size: 21pt;
+    font-weight: bold;
+}
+
