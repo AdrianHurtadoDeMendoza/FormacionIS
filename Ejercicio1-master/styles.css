@@ -41,9 +41,12 @@
    }
    .message-date{
     margin-right: 0px !important;
+    font-size: 14px !important;
+    margin-right: -10px !important;
    }
    .messages .message-title{
-    margin-right: 180px !important;
+    margin-right: 14px !important;
+    width: 177px !important;
    }
   }
 
