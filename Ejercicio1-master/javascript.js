@@ -113,13 +113,13 @@ function eliminar(id,id1) {
 }
 //desplegable
 //pull-down menu
-function mostrar(id) {
+function mostrar(id,idb) {
     var x = document.getElementById(id);
     if (x.style.display === 'none') {
         x.style.display = 'block';
-        document.getElementById("botonP").style.transform="rotate(0deg)";
+        document.getElementById(idb).style.transform="rotate(0deg)";
     } else {
         x.style.display = 'none';
-        document.getElementById("botonP").style.transform="rotate(270deg)";
+        document.getElementById(idb).style.transform="rotate(270deg)";
     }
 }
