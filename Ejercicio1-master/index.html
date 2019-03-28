@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous">
 </head>
 
-<body>
+<body onLoad="window_onload()">
     <div class="container">
         <nav>
             <div class="logo">
@@ -176,10 +179,11 @@
                     </div>
 
                 </nav>
-                <div class="messages">
+                 <!-- Mensaje1 -->
+                <div id="msn-open"class="messages">
                     <input type="checkbox" name="" id="" checked>
                     <div class="user">
-                        <div class="user-status inactive"></div>
+                        <div id="inactive" class="user-status inactive"></div>
                         <p class="user-name">John Snow</p>
                     </div>
                     <div class="message-title">
@@ -188,85 +192,109 @@
                     <div class="message-date">
                         <p>12 April 2014</p>
                     </div>
-                    <button class="open">
+                    <button id="botonP"onclick="mostrar('msn')" class="open">
                         <i class="fas fa-sort-down"></i>
                     </button>
                 </div>
-                <div class="message-content">
+                <!-- Mensaje1-contenido -->
+                <div id="msn" class="message-content">
                     <p>Hi Friend!!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora eius modi ipsam aspernatur
                         iure obcaecati, optio sed, dolores rerum, voluptates ea a unde aperiam accusamus omnis nam numquam
                         ad?
                     </p>
                     <div class="btn-container">
-                        <button class="reply-message">REPLY</button>
-                        <button class="delete-message">DELETE</button>
+                        <button type="button" class="reply-message">REPLY</button>
+                        <button  type="button" onClick="eliminar('msn','msn-open')" id="bot" class="delete-message">DELETE</button>
                     </div>
                 </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="check">
+                <!-- Mensaje2 -->
+                <div id="msn-open2"class="messages">
+                    <input type="checkbox" name="" id="" checked>
                     <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Richard Chaning</p>
+                        <div id="inactive" class="user-status inactive"></div>
+                        <p class="user-name">Elisabeth Bale</p>
                     </div>
                     <div class="message-title">
-                        <p>Memorial Clinic</p>
+                        <p>Hi Friend!!</p>
                     </div>
                     <div class="message-date">
                         <p>12 April 2014</p>
                     </div>
-                    <button>
+                    <button id="botonP"onclick="mostrar('msn2')" class="open">
                         <i class="fas fa-sort-down"></i>
                     </button>
                 </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Elisabeth Bale</p>
+                <!-- Mensaje2-contenido -->
+                <div id="msn2" class="message-content">
+                    <p>Hi Friend!!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora eius modi ipsam aspernatur
+                        iure obcaecati, optio sed, dolores rerum, voluptates ea a unde aperiam accusamus omnis nam numquam
+                        ad?
+                    </p>
+                    <div class="btn-container">
+                        <button type="button" class="reply-message">REPLY</button>
+                        <button  type="button" onClick="eliminar('msn2','msn-open2')" id="bot" class="delete-message">DELETE</button>
                     </div>
-                    <div class="message-title">
-                        <p>From Connecticut</p>
-                    </div>
-                    <div class="message-date">
-                        <p>21 June 2013</p>
-                    </div>
-                    <button>
-                        <i class="fas fa-sort-down"></i>
-                    </button>
                 </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Sarah Connor</p>
+                 <!-- Mensaje3 -->
+                 <div id="msn-open3"class="messages">
+                        <input type="checkbox" name="" id="" checked>
+                        <div class="user">
+                            <div id="inactive" class="user-status inactive"></div>
+                            <p class="user-name">Sarah Connor</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Hi Friend!!</p>
+                        </div>
+                        <div class="message-date">
+                            <p>12 April 2014</p>
+                        </div>
+                        <button id="botonP"onclick="mostrar('msn3')" class="open">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
                     </div>
-                    <div class="message-title">
-                        <p>Cyberdyne Systems</p>
+                    <!-- Mensaje3-contenido -->
+                    <div id="msn3" class="message-content">
+                        <p>Hi Friend!!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora eius modi ipsam aspernatur
+                            iure obcaecati, optio sed, dolores rerum, voluptates ea a unde aperiam accusamus omnis nam numquam
+                            ad?
+                        </p>
+                        <div class="btn-container">
+                            <button type="button" class="reply-message">REPLY</button>
+                            <button  type="button" onClick="eliminar('msn3','msn-open3')" id="bot" class="delete-message">DELETE</button>
+                        </div>
                     </div>
-                    <div class="message-date">
-                        <p>20 June 2013</p>
+                 <!-- Mensaje4 -->
+                 <div id="msn-open4"class="messages">
+                        <input type="checkbox" name="" id="" checked>
+                        <div class="user">
+                            <div id="inactive" class="user-status inactive"></div>
+                            <p class="user-name">Arturo González</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Hi Friend!!</p>
+                        </div>
+                        <div class="message-date">
+                            <p>12 April 2014</p>
+                        </div>
+                        <button id="botonP"onclick="mostrar('msn4')" class="open">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
                     </div>
-                    <button>
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Arturo González</p>
+                    <!-- Mensaje2-contenido -->
+                    <div id="msn4" class="message-content">
+                        <p>Hi Friend!!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora eius modi ipsam aspernatur
+                            iure obcaecati, optio sed, dolores rerum, voluptates ea a unde aperiam accusamus omnis nam numquam
+                            ad?
+                        </p>
+                        <div class="btn-container">
+                            <button type="button" class="reply-message">REPLY</button>
+                            <button  type="button" onClick="eliminar('msn4','msn-open4')" id="bot" class="delete-message">DELETE</button>
+                        </div>
                     </div>
-                    <div class="message-title">
-                        <p>Recordatorio Consulta</p>
-                    </div>
-                    <div class="message-date">
-                        <p>20 June 2013</p>
-                    </div>
-                    <button>
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                </div>
             </div>
         </div>
         <div class="reminders-calendar">
@@ -319,125 +347,31 @@
                                 nobis placeat?</p>
                         </div>
                         <div class="buttons">
-                            <button class="change">CHANGE</button>
-                            <button class="done">DONE</button>
+                            <button type="submit" class="change">CHANGE</button>
+                            <button type="submit" class="done">DONE</button>
                         </div>
                     </div>
                 </div>
-
                 <div class="calendar">
-                    <div class="month">
-                        <p>&lt;</p>
-                        <p class="actual-month">
-                            <b>JULY 2014</b>
-                        </p>
-                        <p>&gt;</p>
+                        <div class="calendar__info">
+                            <div class="calendar__prev" id="prev-month">&#9664;</div>
+                            <div class="calendar__month" id="month"></div>
+                            <div class="calendar__year" id="year"></div>
+                            <div class="calendar__next" id="next-month">&#9654;</div>
+                        </div>
+                    
+                        <div class="calendar__week">
+                            <div class="calendar__day calendar__item">M</div>
+                            <div class="calendar__day calendar__item">T</div>
+                            <div class="calendar__day calendar__item">W</div>
+                            <div class="calendar__day calendar__item">T</div>
+                            <div class="calendar__day calendar__item">F</div>
+                            <div class="calendar__day calendar__item">S</div>
+                            <div class="calendar__day calendar__item">S</div>
+                        </div>
+                    
+                        <div class="calendar__dates" id="dates"></div>
                     </div>
-                    <div class="week">
-                        <p>S</p>
-                        <p>M</p>
-                        <p>T</p>
-                        <p>W</p>
-                        <p>T</p>
-                        <p>F</p>
-                        <p>S</p>
-                    </div>
-                    <div class="days">
-                        <div class="day">
-                            <span>1</span>
-                        </div>
-                        <div class="day actual-day">
-                            <span>2</span>
-                        </div>
-                        <div class="day">
-                            <span>3</span>
-                        </div>
-                        <div class="day">
-                            <span>4</span>
-                        </div>
-                        <div class="day">
-                            <span>5</span>
-                        </div>
-                        <div class="day reminder-day">
-                            <span>6</span>
-                        </div>
-                        <div class="day">
-                            <span>7</span>
-                        </div>
-                        <div class="day">
-                            <span>8</span>
-                        </div>
-                        <div class="day">
-                            <span>9</span>
-                        </div>
-                        <div class="day">
-                            <span>10</span>
-                        </div>
-                        <div class="day">
-                            <span>11</span>
-                        </div>
-                        <div class="day">
-                            <span>12</span>
-                        </div>
-                        <div class="day">
-                            <span>13</span>
-                        </div>
-                        <div class="day">
-                            <span>14</span>
-                        </div>
-                        <div class="day">
-                            <span>15</span>
-                        </div>
-                        <div class="day reminder-day">
-                            <span>16</span>
-                        </div>
-                        <div class="day">
-                            <span>17</span>
-                        </div>
-                        <div class="day">
-                            <span>18</span>
-                        </div>
-                        <div class="day">
-                            <span>19</span>
-                        </div>
-                        <div class="day">
-                            <span>20</span>
-                        </div>
-                        <div class="day">
-                            <span>21</span>
-                        </div>
-                        <div class="day">
-                            <span>22</span>
-                        </div>
-                        <div class="day">
-                            <span>23</span>
-                        </div>
-                        <div class="day">
-                            <span>24</span>
-                        </div>
-                        <div class="day">
-                            <span>25</span>
-                        </div>
-                        <div class="day">
-                            <span>26</span>
-                        </div>
-                        <div class="day reminder-day">
-                            <span>27</span>
-                        </div>
-                        <div class="day">
-                            <span>28</span>
-                        </div>
-                        <div class="day">
-                            <span>29</span>
-                        </div>
-                        <div class="day">
-                            <span>30</span>
-                        </div>
-                        <div class="day">
-                            <span>31</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="circle-of-care">
